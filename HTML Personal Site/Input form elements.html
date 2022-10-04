@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Imput Form Elements</title>
+  <link rel="stylesheet" href="C:\Users\Dell\Desktop\Web Development\css\styles.css">
+</head>
+
+<body>
+
+  <!--standard-->
+  <form action="" method="get" class="form-example">
+    <div class="form-example">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+      <label for="email">Enter your email: </label>
+      <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+      <input type="submit" value="Subscribe!">
+    </div>
+  </form>
+  <br>
+  <hr>
+  <br>
+  <!-- own -->
+  <form class="#form" action="index.html" method="post">
+    <table width=50%>
+      <tr>
+        <td>
+          <label for="Name">Enter Your Name</label>
+        </td>
+        <td>
+          <input type="text" name="name" value="varun">
+        </td>
+        <td>
+          <input type="text" name="name" placeholder="Enter your name here" required> <br><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Enter Your Password</label>
+          </td>
+          <td>
+          <input type="password" name="pwd" value="Pass@123">
+          </td>
+          <td>
+          <input type="text" name="pwd" placeholder="Enter your Password here" required>
+        </td>
+      </tr>
+    <tr>
+      <td><br>
+          <input type="submit"  name="Subscribe" value="subscribe" >
+      </td>
+    </tr>
+    </table>
+  </form>
+  <hr>
+<br>
+  <!-- Other form Elements-->
+  <input type="text" name="textbox" value="This is a text box"><br><br>
+  <textarea name="details" rows="8" cols="80">This is a textarea box</textarea><br><br>
+  <label for="">This is a passowrd box</label>
+  <input type="password" name="" value="Pass@123" autocomplete="current-password" required><br><br>
+   <button type="button" name="Save">This is a button</button><br><br>
+   <input type="button" name="button" value="This is a button"><br><br>
+   <label for="">This is a unclicked radio button</label>
+   <input type="radio" name="radio" value="Boy">
+   <br><br>
+   <label for="">This is a clicked radio button</label>
+    <input type="radio" id="huey" name="drone" value="huey" checked><br><br>
+    <label for="">This is a unchecked checkbox</label>
+    <input type="checkbox" name="checkbox" value=""> <br><br>
+    <label for="">This is a checked checkbox</label>
+    <input type="checkbox" name="" value="" checked><br><br>
+    <label for="">This is a color widget</label>
+    <input type="color" name="" value=""><br><br>
+    <label for="">This is date widget</label>
+    <input type="date" name="" value=""><br><br>
+    <label for="">This is a date time width</label>
+    <input type="datetime-local" name="" value=""><br><br>
+    <label for="">This is a email box</label>
+    <input type="email" name="" value="@xyz.com"><br><br>
+    <label for="">This is file upoad </label>
+    <input type="file" name="" value="upload"><br><br>
+    <label for="">This is hidden</label>
+    <input type="hidden" name="" value="HIDDEN"><br><br>
+    <label for="">This is image</label>
+    <input type="image" name="" value="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"><br><br>
+    <label for="">This is month</label>
+    <input type="month" name="" value=""><br><br>
+    <label for="">This is number</label>
+    <input type="number" name="" value="88" min="10" max="90"><br><br>
+    <label for="">This is a number with 10 step</label>
+    <input type="number" name="" value="5" step="15"><br><br>
+    <label for="">This is a range</label>   <label for="" ><b><i>Min</i></b></label>
+    <input type="range" name="" value="10">  <label for=""><b><i>Max</i></b></label><br><br>
+    <label for="">This is a range with tickmarks</label>
+    <input type="range" name="" value="" list="tickmarks">
+    <datalist id="tickmarks">
+  <option value="0"></option>
+  <option value="10"></option>
+  <option value="20"></option>
+  <option value="30"></option>
+    </datalist>
+
+
+
+
+
+
+
+</body>
+
+</html>
